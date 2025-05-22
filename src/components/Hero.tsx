@@ -30,13 +30,11 @@ const Hero = () => (
     {/* Content */}
     <div className="z-10 flex flex-col items-center text-center">
       <div className="mb-6">
-        <div className="rounded-full border-4 border-[#9b87f5] p-2" style={{boxShadow:"0 0 0 8px rgba(155,135,245,0.11)"}}>
-          <img
-            src="/lovable-uploads/621a6f07-3525-4d72-b289-8ec0485805e8.png"
-            alt="Profile"
-            className="rounded-full w-48 h-48 object-cover"
-          />
-        </div>
+        <img
+          src="/lovable-uploads/621a6f07-3525-4d72-b289-8ec0485805e8.png"
+          alt="Profile"
+          className="rounded-full border-4 border-primary w-40 h-40 object-cover mx-auto shadow-lg"
+        />
       </div>
       <h1 className="font-heading text-5xl md:text-6xl font-bold mb-2 text-white">
         <span className="text-[#9b87f5]">John Kendric</span>
@@ -61,3 +59,4 @@ const Hero = () => (
 );
 
 export default Hero;
+
